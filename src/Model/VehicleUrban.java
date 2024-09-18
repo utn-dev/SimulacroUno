@@ -29,7 +29,7 @@ public class VehicleUrban extends Vehicle {
 
 
     @Override
-    public Double calculatePrice( Double percentage) {
+    public Double calculatePrice(Double percentage) {
         return getPrice() * percentage;
     }
 
